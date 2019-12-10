@@ -1,3 +1,2 @@
 # machine_learning_with_devops
-testing job
-1
+This is a sample project for customer churn example and it will devops practices for CI/CD.
