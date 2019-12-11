@@ -282,22 +282,7 @@ syncer_obj = Syncer(
 # In[70]:
 
 
-classifier = RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
-            max_depth=None, max_features='sqrt', max_leaf_nodes=None,
-            min_impurity_decrease=0.0, min_impurity_split=None,
-            min_samples_leaf=2, min_samples_split=10,
-            min_weight_fraction_leaf=0.0, n_estimators=500, n_jobs=2,
-            oob_score=False, random_state=None, verbose=0,
-            warm_start=False)
-
-
-# In[71]:
-
-
-#syncer_obj.add_tag(classifier, "random forest")
-
-
-# In[72]:
+classifier = RandomForestClassifier()
 
 
 feature_columns1 = df1.columns
