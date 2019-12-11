@@ -36,7 +36,7 @@ from sklearn.feature_selection import RFE
 
 #from sklearn_pandas import DataFrameMapper
 from sklearn.pipeline import Pipeline
-from sklearn2pmml.pipeline import PMMLPipeline
+#from sklearn2pmml.pipeline import PMMLPipeline
 from sklearn.externals import joblib
 from sklearn.metrics import confusion_matrix, classification_report
 
@@ -344,7 +344,7 @@ cv_scores = cross_validation.cross_val_score_sync(
 # In[77]:
 
 
-pipeline = PMMLPipeline([("classifier", classifier)])
+pipeline = Pipeline([("classifier", classifier)])
 
 
 # In[78]:
