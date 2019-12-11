@@ -34,7 +34,7 @@ from sklearn.feature_selection import RFE
 # In[39]:
 
 
-from sklearn_pandas import DataFrameMapper
+#from sklearn_pandas import DataFrameMapper
 from sklearn.pipeline import Pipeline
 from sklearn2pmml.pipeline import PMMLPipeline
 from sklearn.externals import joblib
